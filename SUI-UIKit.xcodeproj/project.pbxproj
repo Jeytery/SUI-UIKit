@@ -19,6 +19,8 @@
 		3E95D719288D400B000B9647 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95D718288D400B000B9647 /* DataView.swift */; };
 		3E95D71C288D444D000B9647 /* UpdateDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95D71B288D444D000B9647 /* UpdateDataView.swift */; };
 		3E95D71E288D4469000B9647 /* UpdateSUIDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95D71D288D4469000B9647 /* UpdateSUIDataViewController.swift */; };
+		3E95D721288D5D3D000B9647 /* UsageExample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95D720288D5D3D000B9647 /* UsageExample1ViewController.swift */; };
+		3E95D725288D5D50000B9647 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95D724288D5D50000B9647 /* UserProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		3E95D718288D400B000B9647 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		3E95D71B288D444D000B9647 /* UpdateDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDataView.swift; sourceTree = "<group>"; };
 		3E95D71D288D4469000B9647 /* UpdateSUIDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSUIDataViewController.swift; sourceTree = "<group>"; };
+		3E95D720288D5D3D000B9647 /* UsageExample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsageExample1ViewController.swift; path = ../../../../../../UsageExample1ViewController.swift; sourceTree = "<group>"; };
+		3E95D724288D5D50000B9647 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		3E95D6F2288D2754000B9647 /* SUI-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				3E95D71F288D5D27000B9647 /* Usage-Example-asView */,
 				3E95D71A288D442B000B9647 /* Update-View-from-UIKit */,
 				3E95D717288D3EE8000B9647 /* Data-UIKit-to+from-SUI */,
 				3E95D712288D2E84000B9647 /* UIKIt-UIView-in-SUI */,
@@ -113,6 +118,15 @@
 				3E95D71D288D4469000B9647 /* UpdateSUIDataViewController.swift */,
 			);
 			path = "Update-View-from-UIKit";
+			sourceTree = "<group>";
+		};
+		3E95D71F288D5D27000B9647 /* Usage-Example-asView */ = {
+			isa = PBXGroup;
+			children = (
+				3E95D720288D5D3D000B9647 /* UsageExample1ViewController.swift */,
+				3E95D724288D5D50000B9647 /* UserProfileView.swift */,
+			);
+			path = "Usage-Example-asView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +212,10 @@
 				3E95D711288D2B13000B9647 /* TestSettingsView.swift in Sources */,
 				3E95D71E288D4469000B9647 /* UpdateSUIDataViewController.swift in Sources */,
 				3E95D714288D2EB9000B9647 /* Ex2CellView.swift in Sources */,
+				3E95D725288D5D50000B9647 /* UserProfileView.swift in Sources */,
 				3E95D716288D2F11000B9647 /* Ex2Settings2View.swift in Sources */,
 				3E95D71C288D444D000B9647 /* UpdateDataView.swift in Sources */,
+				3E95D721288D5D3D000B9647 /* UsageExample1ViewController.swift in Sources */,
 				3E95D6F4288D2754000B9647 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

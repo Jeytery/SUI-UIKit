@@ -93,7 +93,7 @@ class RootViewController: UIViewController {
                     action: {
                         [unowned self] in
                         self.lister.deselectRow(
-                            at: IndexPath(row: 0, section: 1),
+                            at: IndexPath(row: 0, section: 2),
                             animated: true
                         )
                         
@@ -116,7 +116,7 @@ class RootViewController: UIViewController {
                     action: {
                         [unowned self] in
                         self.lister.deselectRow(
-                            at: IndexPath(row: 0, section: 1),
+                            at: IndexPath(row: 0, section: 3),
                             animated: true
                         )
                         self.navigationController?.pushViewController(UpdateSUIDataViewController(), animated: true)
@@ -125,6 +125,29 @@ class RootViewController: UIViewController {
             ],
             header: "",
             footer: "Update Swift UI View data from UIKit"
+        ),
+        
+        .init(
+            rows: [
+                .init(
+                    view: RootCellView(title: "Open UIKit UIViewController"),
+                    height: 45,
+                    action: {
+                        [unowned self] in
+                        self.lister.deselectRow(
+                            at: IndexPath(row: 0, section: 4),
+                            animated: true
+                        )
+                        
+                        self.navigationController?.pushViewController(
+                            UsageExample1ViewController(),
+                            animated: true
+                        )
+                    }
+                )
+            ],
+            header: "",
+            footer: "Example 1 - usage SwiftUI View in UIKit"
         )
     ]
     
