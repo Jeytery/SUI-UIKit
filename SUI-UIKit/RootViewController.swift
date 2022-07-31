@@ -106,7 +106,7 @@ class RootViewController: UIViewController {
                 )
             ],
             header: "",
-            footer: "UIKit UIView in SwiftUI"
+            footer: "Open and share data from UIKit to SwiftUI"
         ),
         .init(
             rows: [
