@@ -148,7 +148,30 @@ class RootViewController: UIViewController {
             ],
             header: "",
             footer: "Example 1 - usage SwiftUI View in UIKit"
-        )
+        ),
+        
+        .init(
+            rows: [
+                .init(
+                    view: RootCellView(title: "Open SwiftUI modaly"),
+                    height: 45,
+                    action: {
+                        [unowned self] in
+                        self.lister.deselectRow(
+                            at: IndexPath(row: 0, section: 5),
+                            animated: true
+                        )
+                        
+                        self.navigationController?.pushViewController(
+                            SUI__UIKitButtonEventViewController(),
+                            animated: true
+                        )
+                    }
+                )
+            ],
+            header: "",
+            footer: "Two examples - SwiftUI button tap event with data"
+        ),
     ]
     
     init() {
@@ -165,5 +188,10 @@ class RootViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         fatalError()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 }
