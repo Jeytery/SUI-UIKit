@@ -24,6 +24,8 @@
 		3EA76EFD28970A5800F19061 /* SUI->UIKit-ButtonEvent1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA76EFC28970A5800F19061 /* SUI->UIKit-ButtonEvent1ViewController.swift */; };
 		3EA76F0128970AF800F19061 /* SUI->UIKitButtonEvent1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA76F0028970AF800F19061 /* SUI->UIKitButtonEvent1.swift */; };
 		3EA76F0528970E5B00F19061 /* SUI-UIKitButtonEvent2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA76F0428970E5B00F19061 /* SUI-UIKitButtonEvent2.swift */; };
+		3EA76F082897128200F19061 /* Update_UIKit_SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA76F072897128200F19061 /* Update_UIKit_SwiftUIViewController.swift */; };
+		3EA76F0A289712DA00F19061 /* Update_UIKit_SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA76F09289712DA00F19061 /* Update_UIKit_SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		3EA76EFC28970A5800F19061 /* SUI->UIKit-ButtonEvent1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SUI->UIKit-ButtonEvent1ViewController.swift"; sourceTree = "<group>"; };
 		3EA76F0028970AF800F19061 /* SUI->UIKitButtonEvent1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SUI->UIKitButtonEvent1.swift"; sourceTree = "<group>"; };
 		3EA76F0428970E5B00F19061 /* SUI-UIKitButtonEvent2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SUI-UIKitButtonEvent2.swift"; sourceTree = "<group>"; };
+		3EA76F072897128200F19061 /* Update_UIKit_SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update_UIKit_SwiftUIViewController.swift; sourceTree = "<group>"; };
+		3EA76F09289712DA00F19061 /* Update_UIKit_SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update_UIKit_SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		3E95D6F2288D2754000B9647 /* SUI-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				3EA76F062897125600F19061 /* Update-UIKit-SwiftUI */,
 				3EA76EF92897098900F19061 /* SUI->UIKit-ButtonEvent */,
 				3E95D71F288D5D27000B9647 /* Usage-Example-asView */,
 				3E95D71A288D442B000B9647 /* Update-View-from-UIKit */,
@@ -144,6 +149,15 @@
 				3EA76F0428970E5B00F19061 /* SUI-UIKitButtonEvent2.swift */,
 			);
 			path = "SUI->UIKit-ButtonEvent";
+			sourceTree = "<group>";
+		};
+		3EA76F062897125600F19061 /* Update-UIKit-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				3EA76F072897128200F19061 /* Update_UIKit_SwiftUIViewController.swift */,
+				3EA76F09289712DA00F19061 /* Update_UIKit_SwiftUIView.swift */,
+			);
+			path = "Update-UIKit-SwiftUI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E95D719288D400B000B9647 /* DataView.swift in Sources */,
+				3EA76F082897128200F19061 /* Update_UIKit_SwiftUIViewController.swift in Sources */,
 				3E95D708288D27AB000B9647 /* RootViewController.swift in Sources */,
 				3E95D711288D2B13000B9647 /* TestSettingsView.swift in Sources */,
 				3E95D71E288D4469000B9647 /* UpdateSUIDataViewController.swift in Sources */,
@@ -235,6 +250,7 @@
 				3E95D716288D2F11000B9647 /* Ex2Settings2View.swift in Sources */,
 				3EA76F0128970AF800F19061 /* SUI->UIKitButtonEvent1.swift in Sources */,
 				3E95D71C288D444D000B9647 /* UpdateDataView.swift in Sources */,
+				3EA76F0A289712DA00F19061 /* Update_UIKit_SwiftUIView.swift in Sources */,
 				3E95D721288D5D3D000B9647 /* UsageExample1ViewController.swift in Sources */,
 				3E95D6F4288D2754000B9647 /* AppDelegate.swift in Sources */,
 			);

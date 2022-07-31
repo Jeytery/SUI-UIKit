@@ -172,6 +172,29 @@ class RootViewController: UIViewController {
             header: "",
             footer: "Two examples - SwiftUI button tap event with data"
         ),
+        
+        .init(
+            rows: [
+                .init(
+                    view: RootCellView(title: "Open UIKit UIViewController"),
+                    height: 45,
+                    action: {
+                        [unowned self] in
+                        self.lister.deselectRow(
+                            at: IndexPath(row: 0, section: 6),
+                            animated: true
+                        )
+                        
+                        self.navigationController?.pushViewController(
+                            Update_UIKit_SwiftUIViewController(),
+                            animated: true
+                        )
+                    }
+                )
+            ],
+            header: "",
+            footer: "How to update UIKit UIViewController data from SwiftUI View"
+        ),
     ]
     
     init() {
