@@ -124,7 +124,7 @@ class RootViewController: UIViewController {
                 )
             ],
             header: "",
-            footer: "Update Swift UI View data from UIKit"
+            footer: "Update SwiftUI View data from UIKit"
         ),
         
         .init(
