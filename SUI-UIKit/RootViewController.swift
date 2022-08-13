@@ -195,6 +195,28 @@ class RootViewController: UIViewController {
             header: "",
             footer: "How to update UIKit UIViewController data from SwiftUI View"
         ),
+        .init(
+            rows: [
+                .init(
+                    view: RootCellView(title: "Open UIKit UIViewController"),
+                    height: 45,
+                    action: {
+                        [unowned self] in
+                        self.lister.deselectRow(
+                            at: IndexPath(row: 0, section: 6),
+                            animated: true
+                        )
+                        
+                        self.navigationController?.pushViewController(
+                            Update_SUI_UIKit_noViewModelViewController(),
+                            animated: true
+                        )
+                    }
+                )
+            ],
+            header: "",
+            footer: "How to update UIKit UIViewController data from SwiftUI View"
+        )
     ]
     
     init() {
